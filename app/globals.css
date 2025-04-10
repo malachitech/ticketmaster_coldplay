@@ -1,0 +1,424 @@
+@import url(https://db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Regular);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body, * {
+  font-family: "Averta-Regular";
+  /* background: var(--background); */
+  
+}
+
+/* p, h1, h2, h3, h4, h5, h6, div, span{
+  color: rgb(223, 223, 223);
+} */
+
+hr{
+  /* height: 20px; */
+  border: 1px solid rgb(236, 236, 236);
+  width: 100%;
+  margin: 10px 0;
+}
+
+.header{
+  background-color: #1F262D;
+  padding: 10px 8px;
+  color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-one{
+  font-family: "Averta-Semibold", sans-serif;
+  font-weight: 900;
+}
+
+.x{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.help{
+  font-weight: 300;
+}
+
+/* seat-details */
+
+.ticket{
+  margin: 6px;
+  border-radius: 12px;
+  overflow: hidden;
+  color: rgb(223, 223, 223);
+}
+.slide-head{
+  text-align: center;
+  background-color: #155FC8;
+  padding: 10px;
+  font-size: 14px;
+}
+.seat-details{
+  background-color: #026CDF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 23px;
+  font-size: 14px;
+  color: rgb(223, 223, 223);
+}
+
+.event-details{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/ticket-img.jpeg);
+  /* background-image: url(/billie-eilish.jpg); */
+  background-position: top;
+  background-size: cover;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.event-title{
+  font-size: 17px;
+  color: rgb(237,235,235);
+}
+
+/* scan-barcode */
+
+.scan-barcode-container{
+  padding: 30px;
+}
+.scan-barcode{
+  background-color: #016BE0;
+  padding: 8px 30px;
+  margin-bottom: 30px;
+}
+
+.scan{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.barcode-ticket-details{
+  font-size: 16px;
+  color: #016BE0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* actions */
+
+.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+}
+.action{
+  background-color: #016BE0;
+  border-radius: 5px;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding: 10px 45px;
+}
+
+/* modal */
+
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 1000;
+  
+}
+
+.modal {
+  background-color: white;
+  width: 100%;
+  max-height: 65%;
+  /* border-radius: 10px 10px 0 0; */
+  
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.modal.slide-up {
+  transform: translateY(0);
+  
+}
+.modal-margin{
+  padding: 10px;
+}
+
+.modal-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(125, 125, 125);
+}
+
+.modal-disclaimer {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  background-color: #eee;
+  border:1px solid rgb(152, 152, 152);
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.disclaimer-icon{
+  font-size: 32px;
+  color: gray;
+}
+
+.modal-seat-details{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.transfer-modal-details{
+  color: rgb(125, 125, 125);
+  font-size: 13px;
+}
+.form-seat-details{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 10px 0;
+  color: rgb(125, 125, 125);
+  font-size: 13px;
+}
+
+.modal-seat-ticket{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+
+
+.checkbox-header {
+  background-color: #007bff;
+  color: white;
+  padding:10px;
+  border-radius: 4px 4px 0 0;
+  font-weight: 300;
+}
+
+.checkbox-input-container{
+  text-align: center;
+  padding: 10px 20px;
+  
+}
+
+.checkbox-input {
+
+  transform: scale(1.2);
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-input.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.checkbox-input.selected::after {
+  content: "✓";
+  font-size: 1.1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.checkbox-counter {
+  font-size: 1.2em;
+}
+
+
+
+.open-modal-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.open-modal-btn:hover {
+  background-color: #0056b3;
+}
+
+.close-modal-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-modal-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.checkbox-container-margin{
+  margin-bottom: 100px;
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0;
+ 
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+.form-back-btn{
+  color: #007bff;
+}
+.open-modal-form{
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* form */
+
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  color: rgb(125, 125, 125);
+  font-size: 13px;
+}
+
+.form-group label{
+  margin-bottom: 5px;
+}
+.form-group input, .form-group textarea{
+  padding: 10px 5px;
+  font-size: 13px;
+}
+
+.close-modal-btn{
+  font-size: 13px;
+}
+
+
+.ticket-slider, .actions-container{
+  width: 100%;
+
+}
+
+/* ticket details styles */
+.ticket-details{
+  padding: 10px;
+}
+.ticket-detail{
+  margin: 10px 0;
+}
+.ticket_details_titles{
+  font-weight: 900;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .ticket-slider .swiper, .actions-container{
+    max-width: 30%;
+    
+  }
+}
+
+.ticket {
+  padding: 0 5px;
+  
+}
+.slick-dots li button:before {
+  font-size: 10px !important;
+}
+
+.slick-dots li {
+  margin: 0 !important;
+}
