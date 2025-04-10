@@ -260,7 +260,7 @@ const Home = () => {
             <div className="seat-details">
               <div className="sec">
                 <h3>SEC</h3>
-                <p>112</p>
+                <p>111</p>
               </div>
 
               <div className="row">
