@@ -392,9 +392,10 @@ hr{
 
 }
 
-/* ticket details styles */
+/* ticket details styles start */
 .ticket-details{
   padding: 10px;
+  font-size: 11px;
 }
 .ticket-detail{
   margin: 10px 0;
@@ -403,6 +404,7 @@ hr{
   font-weight: 900;
 }
 
+/* ticket details styles ends */
 
 @media only screen and (min-width: 800px) {
   .ticket-slider .swiper, .actions-container{
