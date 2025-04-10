@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Regular);
+@import url(https://db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Semibold);
 
 @tailwind base;
 @tailwind components;
@@ -403,7 +404,7 @@ hr{
 .ticket_details_titles{
   font-weight: 900;
   color: black;
-  
+  font-family: "Averta-Semibold", sans-serif;
 
 }
 
