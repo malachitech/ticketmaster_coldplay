@@ -402,6 +402,7 @@ hr{
 }
 .ticket_details_titles{
   font-weight: 900;
+  color: black;
 }
 
 /* ticket details styles ends */
