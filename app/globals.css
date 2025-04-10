@@ -1,5 +1,5 @@
-@import url(https://db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Regular);
-@import url(https://db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Semibold);
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Averta:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -18,7 +18,7 @@
 }
 
 body, * {
-  font-family: "Averta-Regular";
+  font-family: "Averta";
   /* background: var(--background); */
   
 }
@@ -45,7 +45,7 @@ hr{
 }
 
 .title-one{
-  font-family: "Averta-Semibold", sans-serif;
+  font-family: "Averta", sans-serif;
   font-weight: 900;
 }
 
@@ -402,9 +402,10 @@ hr{
   margin: 10px 0;
 }
 .ticket_details_titles{
+  font-family: "Averta", sans-serif;
   font-weight: 900;
   color: black;
-  font-family: "Averta-Semibold", sans-serif;
+
 
 }
 
