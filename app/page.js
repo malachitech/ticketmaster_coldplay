@@ -277,7 +277,7 @@ const Home = () => {
             <div className="event-details">
               <div>
                 <p className="event-title">Coldplay: Music of the spheres world tour 2025</p>
-                <p>Mon &#183; 8 Sep, 2025&#183; 17:00 &#183; GB Wembley Stadium, London</p>
+                <p>Mon &#183; 8 Sept, 2025&#183; 17:00 &#183; GB Wembley Stadium, London</p>
               </div>
             </div>
 
@@ -332,7 +332,7 @@ const Home = () => {
             <div className="event-details">
               <div>
                 <p className="event-title">Coldplay: Music of the spheres world tour 2025</p>
-                <p>Mon &#183; 8 Sep, 2025&#183; 17:00 &#183; GB Wembley Stadium, London</p>
+                <p>Mon &#183; 8 Sept, 2025&#183; 17:00 &#183; GB Wembley Stadium, London</p>
               </div>
             </div>
 
@@ -388,7 +388,7 @@ const Home = () => {
             <div className="event-details">
               <div>
                 <p className="event-title">Coldplay: Music of the spheres world tour 2025</p>
-                <p>Mon &#183; 8 Sep, 2025&#183; 17:00 &#183; GB Wembley Stadium, London</p>
+                <p>Mon &#183; 8 Sept, 2025&#183; 17:00 &#183; GB Wembley Stadium, London</p>
               </div>
             </div>
 

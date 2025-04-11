@@ -56,7 +56,7 @@ const ticketdetails = () => {
                         Mon, 8 Sep, 17:00
                     </div>
                 </div>
-                
+
                 <hr className="details_hr" />
 
                 <div className="ticket-detail">
@@ -164,7 +164,7 @@ const ticketdetails = () => {
                         </div>
 
                         <div className="ticket_details_info_flexed left">
-                            E247.25
+                            £247.25
                         </div>
 
                     </div>
@@ -175,7 +175,7 @@ const ticketdetails = () => {
                         </div>
 
                         <div className="ticket_details_info_flexed left">
-                            E741.75
+                            £741.75
                         </div>
 
                     </div>
