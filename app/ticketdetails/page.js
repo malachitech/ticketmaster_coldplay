@@ -37,7 +37,7 @@ const ticketdetails = () => {
 
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
-                        Seat loaction
+                        Seat location
                     </div>
 
                     <div className="ticket_details_info">
