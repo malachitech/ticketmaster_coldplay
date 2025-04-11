@@ -1,5 +1,5 @@
 /* globals.css */
-@import url('https://fonts.googleapis.com/css2?family=Averta:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -18,7 +18,7 @@
 }
 
 body, * {
-  font-family: "Averta";
+  font-family: "Roboto", Helvetica;
   /* background: var(--background); */
   
 }
@@ -45,7 +45,7 @@ hr{
 }
 
 .title-one{
-  font-family: "Averta", sans-serif;
+  font-family: "Roboto", Helvetica;
   font-weight: 900;
 }
 
@@ -410,7 +410,7 @@ hr{
   
 }
 .ticket_details_titles{
-  font-family: "Averta", sans-serif;
+  font-family: "Roboto", Helvetica;
   font-weight: 900;
   color: black;
   line-height: 2;
@@ -423,6 +423,9 @@ hr{
   align-items: center;
 }
 
+.details_link{
+  color: #007bff;
+}
 
 /* ticket details styles ends */
 
