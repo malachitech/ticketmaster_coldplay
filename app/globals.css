@@ -394,20 +394,35 @@ hr{
 }
 
 /* ticket details styles start */
+
+.details_header{
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
 .ticket-details{
   padding: 10px;
   font-size: 13px;
 }
 .ticket-detail{
   margin: 10px 0;
+  
 }
 .ticket_details_titles{
   font-family: "Averta", sans-serif;
   font-weight: 900;
   color: black;
-
+  line-height: 2;
 
 }
+
+.flexed{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 /* ticket details styles ends */
 

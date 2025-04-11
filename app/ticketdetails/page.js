@@ -19,7 +19,7 @@ const ticketdetails = () => {
         <div>
 
             {/* header */}
-            <div className="header">
+            <div className="header details_header">
                 <div className="x">
                     <FaXmark />
                 </div>
@@ -45,6 +45,8 @@ const ticketdetails = () => {
                     </div>
                 </div>
 
+                <hr className="details_hr" />
+
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
                         Coldplay:Music of the spheres world Tour 2025
@@ -54,6 +56,8 @@ const ticketdetails = () => {
                         Mon, 8 Sep, 17:00
                     </div>
                 </div>
+                
+                <hr className="details_hr" />
 
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
@@ -65,6 +69,8 @@ const ticketdetails = () => {
                     </div>
                 </div>
 
+                <hr className="details_hr" />
+
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
                         Ticket Info
@@ -72,10 +78,12 @@ const ticketdetails = () => {
 
                     <div className="ticket_details_info">
                         Coldplay:Music of the spheres world Tour 2025
-                        Wembley Stadium, London.  Mon, 8 Sep 2025, 17:00
+                        Wembley Stadium, London GB.  Mon, 8 Sep 2025, 17:00
 
                     </div>
                 </div>
+
+                <hr className="details_hr" />
 
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
@@ -88,6 +96,21 @@ const ticketdetails = () => {
                     </div>
                 </div>
 
+                <hr className="details_hr" />
+
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Wembley Stadium
+
+                    </div>
+
+                    <div className="ticket_details_info">
+                        London, GB
+                    </div>
+                </div>
+
+                <hr className="details_hr" />
+
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
                         Order Number
@@ -99,6 +122,90 @@ const ticketdetails = () => {
                     </div>
                 </div>
 
+                <hr className="details_hr" />
+
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Ticket type
+
+                    </div>
+
+                    <div className="ticket_details_info">
+                        Reserved Seated Tickets
+                    </div>
+                </div>
+
+                <hr className="details_hr" />
+
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Purchase date
+
+                    </div>
+
+
+                    <div className="ticket_details_info">
+                        Tue, Oct 1 2024 - 11:44PM
+                    </div>
+                </div>
+
+                <hr className="details_hr" />
+
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Ticket Price
+
+                    </div>
+
+
+                    <div className="ticket_details_info flexed">
+                        <div className="ticket_details_info_flexed right">
+                            Reserved Seated Tickets x3 :
+                        </div>
+
+                        <div className="ticket_details_info_flexed left">
+                            E247.25
+                        </div>
+
+                    </div>
+
+                    <div className="ticket_details_info flexed">
+                        <div className="ticket_details_info_flexed right">
+                            GRAND TOTAL:
+                        </div>
+
+                        <div className="ticket_details_info_flexed left">
+                            E741.75
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {/* terms */}
+
+                <hr className="details_hr" />
+
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Terms & COnditions
+
+                    </div>
+
+
+                    <div className="ticket_details_info">
+
+                        Take care of your ticket, as it cannot be replaced
+                        if lost, stolen or destroyed, and is valid only for event
+                        and seat printed on ticket. This ticket is a revocable license
+                        to attend the event listed on the front of the ticket and is
+                        subject
+                        to the full termsfound at www.ticketmaster.com. Such
+                        license may be revoked without refund for noncompliance
+                        with terms. Unlawful sale or attempted sale prohibited
+
+                    </div>
+                </div>
             </div>
 
         </div>
