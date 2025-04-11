@@ -71,14 +71,36 @@ const ticketdetails = () => {
                     </div>
 
                     <div className="ticket_details_info">
-                        Coldplkay:Music of the spheres world Tour 2025
+                        Coldplay:Music of the spheres world Tour 2025
                         Wembley Stadium, London.  Mon, 8 Sep 2025, 17:00
-                        
+
                     </div>
                 </div>
 
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Barcode Number
+
+                    </div>
+
+                    <div className="ticket_details_info">
+                        267658050953463369c
+                    </div>
+                </div>
+
+                <div className="ticket-detail">
+                    <div className="ticket_details_titles">
+                        Order Number
+
+                    </div>
+
+                    <div className="ticket_details_info">
+                        9-48377/WDD
+                    </div>
+                </div>
 
             </div>
+
         </div>
     );
 };
