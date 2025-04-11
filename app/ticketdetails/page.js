@@ -200,9 +200,9 @@ const ticketdetails = () => {
                         and seat printed on ticket. This ticket is a revocable license
                         to attend the event listed on the front of the ticket and is
                         subject
-                        to the full termsfound at <a className="details_link" href="www.ticketmaster.com">www.ticketmaster.com</a>. Such
+                        to the full terms found at <a className="details_link" href="www.ticketmaster.com">www.ticketmaster.com</a>. Such
                         license may be revoked without refund for noncompliance
-                        with terms. Unlawful sale or attempted sale prohibited
+                        with terms. Unlawful sale or attempted sale prohibited.
 
                     </div>
                 </div>
