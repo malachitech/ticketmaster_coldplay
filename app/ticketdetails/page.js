@@ -41,7 +41,7 @@ const ticketdetails = () => {
                     </div>
 
                     <div className="ticket_details_info">
-                        Sec 111/13/3-5
+                        Sec 102/13/3-6
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ const ticketdetails = () => {
                     </div>
 
                     <div className="ticket_details_info">
-                        Mon, 8 Sep, 17:00
+                        Wed, 16 July, 18:00
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ const ticketdetails = () => {
 
                     <div className="ticket_details_info">
                         Coldplay:Music of the spheres world Tour 2025
-                        Wembley Stadium, London GB.  Mon, 8 Sep 2025, 17:00
+                        Gillette Stadium, Foxborough MA.  Wed, 16 July 2025, 18:00
 
                     </div>
                 </div>
@@ -100,12 +100,12 @@ const ticketdetails = () => {
 
                 <div className="ticket-detail">
                     <div className="ticket_details_titles">
-                        Wembley Stadium
+                        Gillette Stadium
 
                     </div>
 
                     <div className="ticket_details_info">
-                        London, GB
+                        Foxborough, GB
                     </div>
                 </div>
 
@@ -160,11 +160,11 @@ const ticketdetails = () => {
 
                     <div className="ticket_details_info flexed">
                         <div className="ticket_details_info_flexed right">
-                            Reserved Seated Tickets x3 :
+                            Reserved Seated Tickets x4 :
                         </div>
 
                         <div className="ticket_details_info_flexed left">
-                            £247.25
+                            $747.25
                         </div>
 
                     </div>
@@ -175,7 +175,7 @@ const ticketdetails = () => {
                         </div>
 
                         <div className="ticket_details_info_flexed left">
-                            £741.75
+                            $2989.00
                         </div>
 
                     </div>
